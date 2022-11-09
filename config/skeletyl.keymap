@@ -103,6 +103,27 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+        combo_meta {
+            timeout-ms = <50>;
+            key-positions = <10 19>;
+            bindings = <&kp LGUI>;
+        };
+
+        combo_ralt_left {
+            timeout-ms = <50>;
+            key-positions = <1 2>; // we
+            bindings = <&kp RALT>;
+        };
+
+        combo_ralt_left {
+            timeout-ms = <50>;
+            key-positions = <7 8>; // io
+            bindings = <&kp RALT>;
+        };
+    };
+
     macros {
         mcopy: mcopy {
             label = "mcopy";
