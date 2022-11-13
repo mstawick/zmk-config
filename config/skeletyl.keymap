@@ -112,15 +112,21 @@
         };
 
         combo_ralt_left {
-            timeout-ms = <50>;
+            timeout-ms = <10>;
             key-positions = <1 2>; // we
             bindings = <&kp RALT>;
         };
 
         combo_ralt_right {
-            timeout-ms = <50>;
+            timeout-ms = <10>;
             key-positions = <7 8>; // io
             bindings = <&kp RALT>;
+        };
+
+        combo_bt_layer {
+            timeout-ms = <100>;
+            key-positions = <33 34>; // enter bspace
+            bindings = <&mo SYS>;
         };
     };
 
