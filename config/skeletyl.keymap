@@ -176,7 +176,7 @@
         };
         mredo: mredo {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "mredo";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -192,7 +192,7 @@
         };
         mundo: mundo {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "mundo";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
